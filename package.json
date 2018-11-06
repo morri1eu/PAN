@@ -1,0 +1,30 @@
+{
+  "name": "pan",
+  "version": "1.0.0",
+  "description": "Vidyo+WebRTC application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morri1eu/PAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morri1eu/PAN/issues"
+  },
+  "homepage": "https://github.com/morri1eu/PAN#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.9",
+    "mongoose-validators": "^0.1.0"
+  }
+}
